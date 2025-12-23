@@ -1,0 +1,10 @@
+config-file = "user"
+
+app-notifications = no-clipboard-copy
+title = "ghostty"
+font-family = "FiraCode Nerd Font Mono"
+
+window-inherit-working-directory = false
+
+clipboard-read = allow
+clipboard-write = allow
