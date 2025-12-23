@@ -30,10 +30,10 @@
           alt-down = "focus --boundaries all-monitors-outer-frame down";
 
           # Move Binds
-          alt-shift-left = "move left";
-          alt-shift-right = "move right";
-          alt-shift-up = "move up";
-          alt-shift-down = "move down";
+          alt-shift-left = "move --boundaries all-monitors-outer-frame left ";
+          alt-shift-right = "move --boundaries all-monitors-outer-frame right";
+          alt-shift-up = "move --boundaries all-monitors-outer-frame up";
+          alt-shift-down = "move --boundaries all-monitors-outer-frame down";
 
           # Focus Monitor Binds
           alt-comma = "focus-monitor left";
