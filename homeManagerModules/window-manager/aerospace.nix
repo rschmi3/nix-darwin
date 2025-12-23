@@ -13,10 +13,12 @@
   config = {
     programs.aerospace = {
       enable = true;
+
       launchd = {
-        enable = false;
+        enable = true;
         keepAlive = false;
       };
+
       userSettings = {
         on-focus-changed = [ "move-mouse window-lazy-center" ];
         mode.main.binding = {

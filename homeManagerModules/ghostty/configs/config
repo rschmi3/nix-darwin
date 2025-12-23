@@ -8,3 +8,5 @@ window-inherit-working-directory = false
 
 clipboard-read = allow
 clipboard-write = allow
+
+window-decoration = auto
