@@ -57,7 +57,7 @@
           alt-a = "workspace 6";
           alt-s = "workspace 7";
           alt-d = "workspace 8";
-          alt-f = "workspace 4";
+          alt-f = "workspace 9";
           alt-g = "workspace 10";
           alt-h = "workspace 1";
           alt-j = "workspace 2";
