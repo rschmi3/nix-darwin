@@ -20,16 +20,30 @@
       };
 
       userSettings = {
-        on-focus-changed = [ "move-mouse window-lazy-center" ];
         mode.main.binding = {
+          # General Binds
+          alt-m = "fullscreen";
+
           # Launch Binds
           alt-enter = "exec-and-forget open -a Ghostty";
 
           # Focus Binds
-          alt-left = "focus --boundaries all-monitors-outer-frame left";
-          alt-right = "focus --boundaries all-monitors-outer-frame right";
-          alt-up = "focus --boundaries all-monitors-outer-frame up";
-          alt-down = "focus --boundaries all-monitors-outer-frame down";
+          alt-left = [
+            "focus --boundaries all-monitors-outer-frame left"
+            "move-mouse window-lazy-center"
+          ];
+          alt-right = [
+            "focus --boundaries all-monitors-outer-frame right"
+            "move-mouse window-lazy-center"
+          ];
+          alt-up = [
+            "focus --boundaries all-monitors-outer-frame up"
+            "move-mouse window-lazy-center"
+          ];
+          alt-down = [
+            "focus --boundaries all-monitors-outer-frame down"
+            "move-mouse window-lazy-center"
+          ];
 
           # Move Binds
           alt-shift-left = "move --boundaries all-monitors-outer-frame left ";
