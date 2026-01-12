@@ -155,7 +155,7 @@
             "workspace 3"
           ];
           alt-shift-l = [
-            "move-node-to-workspace 3"
+            "move-node-to-workspace 4"
             "workspace 4"
           ];
           alt-shift-semicolon = [
