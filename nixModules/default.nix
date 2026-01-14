@@ -52,6 +52,10 @@
 
   # Enable alternative shell support in nix-darwin.
   programs = {
+    direnv = {
+      enable = true;
+      nix-direnv.enable = true;
+    };
     fish.enable = true;
   };
 
