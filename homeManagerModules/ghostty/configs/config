@@ -10,3 +10,4 @@ clipboard-read = allow
 clipboard-write = allow
 
 window-decoration = auto
+macos-titlebar-style = hidden
