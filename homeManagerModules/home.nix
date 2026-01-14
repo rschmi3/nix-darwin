@@ -1,4 +1,4 @@
-{ user, ... }:
+{ pkgs, user, ... }:
 {
 
   home-manager = {
@@ -15,6 +15,7 @@
       ghostty.enable = true;
 
       home = {
+        packages = with pkgs; [ google-chrome ];
         sessionVariables = {
           EDITOR = "nvim";
         };
