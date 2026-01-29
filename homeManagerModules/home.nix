@@ -25,11 +25,19 @@
       programs = {
         fish = {
           enable = true;
+          binds = {
+            "alt-v" = {
+              erase = true;
+              operate = "preset";
+            };
+          };
+
           interactiveShellInit = ''
             eval "$(/opt/homebrew/bin/brew shellenv)"
 
             starship init fish | source
           '';
+
           shellAliases = {
             vim = "nvim";
             vi = "nvim";
