@@ -23,6 +23,7 @@
         mode.main.binding = {
           # General Binds
           alt-m = "fullscreen";
+          alt-v = "layout floating tiling";
 
           # Launch Binds
           alt-enter = "exec-and-forget open -a Ghostty";
